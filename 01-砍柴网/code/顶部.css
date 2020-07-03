@@ -1,0 +1,188 @@
+.top{
+    position: fixed;
+    height: 70px;
+    width: 100%;
+    background-color: #00aa98;
+    line-height: 70px;
+    margin: 0;
+    top: 0;
+    overflow: hidden;
+    z-index: 1;
+}
+
+.ul1{
+    list-style-type: none;
+}
+
+.li1{
+    color: #fff;
+    height: 70px;
+    margin: 0 10px;
+    display: block;
+    float: left;
+    overflow: hidden;
+    line-height: 70px;
+    cursor: pointer;
+}
+.li1:hover{
+    color: rgb(247, 243, 27);
+}
+.li1-img0{
+    width: 90px;
+    height: 30px;
+    position: relative;
+    top: 10px;
+    margin-left: 50px;
+}
+.li1-img{
+    position: relative;
+    top: 15px;
+}
+.img0{
+    width: 40px;
+}
+.img0-i{
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    background: url(../source/图标/图标2.png) no-repeat -4px -5px;
+    position: relative;
+    top: 10px;
+    left: 5px;
+}
+.iconfont{
+    position: relative;
+    left: 10px;
+}
+.img0:hover .img0-i{
+    background-color:  #00aa98;
+}
+.img0:hover{
+    background-color: cornsilk !important;
+}
+
+.list1{
+    display: none;
+    position: absolute;
+    top: -28px;
+    left: 498px;
+    width: 400px;
+    border: 1px 0 1px 1px solid rgb(187, 180, 180);
+    background-color: #ffffff;
+    z-index: 2;
+}
+.list1-span{
+    display: inline-block;
+    width: 50px;
+    height: 30px;
+    margin: 0 20px;
+    cursor: pointer;
+}
+.list1-span:hover{
+    color: #00aa98;
+}
+.ul2{
+    list-style-type: none;
+    margin: 0;
+}
+.ul2 .li2 .ss{
+    margin-right: 20px;
+}
+.li2{
+    cursor: pointer;
+    color: #fff;
+    margin: 0 10px;
+    display: block;
+    float: right;
+    overflow: hidden;
+    background-color: #00aa98;
+}
+.li2:hover{
+    color: rgb(247, 243, 27);
+}
+.tg{
+    display: inline-block;
+    width: 50px;
+    height: 30px;
+    line-height: 30px;
+    background-color: rgb(13, 107, 131);
+    text-decoration: none;
+    border-radius: 5px;
+    color: #fff;
+    text-align: center;
+    margin-right: 50px;
+}
+.tg:hover{
+    color: rgb(247, 243, 27);
+    background-color:  #00aa98;
+    
+}
+.input0{
+    margin-right: 0;
+}
+
+.img1{
+    display: inline-block;
+    margin-left: 0;
+    height: 70px;
+    line-height: 70px;
+}
+.li1-ul{
+    position: relative;
+    top: 70px;
+    margin-top: 40px;
+    height: 300px;
+    width: 100px;
+    border: 1px solid rgb(10, 10, 10);
+    z-index: 999;
+}
+.li2-img{
+    display: inline-block;
+    width: 30px;
+    height: 32px;
+    background: url(../source/图标/图标3.png) no-repeat -8px -5px;
+    margin-left: 0;
+    border-radius: 0 7px 7px 0;
+    position: relative;
+    top: 12px;
+    left: 0px;
+}
+.li2-img:hover{
+    background: url(../source/图标/图标3黄.png) no-repeat -9px -6px;
+}
+
+.li2-input{
+    display: inline-block;
+    background-color:rgb(13, 103, 131);
+    border: rgb(255, 255, 255);
+    height: 30px;
+    border-radius: 10px 0 0 10px;
+    width: 145px;
+    cursor: pointer;
+}
+
+
+
+.input-1{
+    animation: move 0.5s;
+    animation-fill-mode: forwards;
+    background-color: #ffffff !important;
+}
+@keyframes move {
+    0%{right:0;width:145px}
+    25%{right:0;width:160px}
+    50%{right:0;width:175px}
+    75%{right:0;width:190px}
+    100%{right:0;width:205px}
+}
+.input-2{
+    animation: move1 0.5s;
+    animation-fill-mode: forwards;
+}
+@keyframes move1 {
+    0%{right:0;width:205px}
+    25%{right:0;width:190px}
+    50%{right:0;width:175px}
+    75%{right:0;width:160px}
+    100%{right:0;width:145px}
+}
